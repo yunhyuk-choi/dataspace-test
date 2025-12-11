@@ -1,0 +1,150 @@
+[
+  {
+    "type": "odrl:Offer",
+    "id": "id",
+    "permission": [
+      {
+        "action": {
+          "id": "action"
+        },
+        "constraint": [
+          {
+            "type": "odrl:LogicalConstraint",
+            "leftOperand": {
+              "id": "test"
+            },
+            "operator": {
+              "id": "eq"
+            },
+            "rightOperand": "test"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "odrl:Offer",
+    "id": "2",
+    "permission": [
+      {
+        "action": {
+          "id": "3"
+        },
+        "constraint": [
+          {
+            "type": "odrl:LogicalConstraint",
+            "leftOperand": {
+              "id": "444"
+            },
+            "operator": {
+              "id": "555"
+            },
+            "rightOperand": "666"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "odrl:Offer",
+    "id": "input test",
+    "permission": [
+      {
+        "action": {
+          "id": "hello input"
+        },
+        "constraint": [
+          {
+            "type": "odrl:LogicalConstraint",
+            "leftOperand": {
+              "id": "x"
+            },
+            "operator": {
+              "id": "<="
+            },
+            "rightOperand": "10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "odrl:Offer",
+    "id": "test",
+    "permission": [
+      {
+        "action": {
+          "id": "1"
+        },
+        "constraint": [
+          {
+            "type": "odrl:LogicalConstraint",
+            "leftOperand": {
+              "id": "2"
+            },
+            "operator": {
+              "id": "=="
+            },
+            "rightOperand": "2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "odrl:Offer",
+    "id": "test2",
+    "permission": [
+      {
+        "action": {
+          "id": "q"
+        },
+        "constraint": [
+          {
+            "type": "odrl:LogicalConstraint",
+            "leftOperand": {
+              "id": "1"
+            },
+            "operator": {
+              "id": "w"
+            },
+            "rightOperand": "e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "odrl:Offer",
+    "id": "size test",
+    "permission": [
+      {
+        "action": {
+          "id": "active"
+        },
+        "constraint": [
+          {
+            "type": "odrl:LogicalConstraint",
+            "leftOperand": {
+              "id": "x"
+            },
+            "operator": {
+              "id": ">"
+            },
+            "rightOperand": "0"
+          },
+          {
+            "type": "odrl:LogicalConstraint",
+            "leftOperand": {
+              "id": "x"
+            },
+            "operator": {
+              "id": "<="
+            },
+            "rightOperand": "20"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "membershipConstraint",
+    "line": "Membership Credential is active",
+    "type": "odrl:LogicalConstraint",
+    "leftOperand": {
+      "id": "MembershipCredential"
+    },
+    "operator": {
+      "id": "odrl:eq"
+    },
+    "rightOperand": "active"
+  },
+  {
+    "name": "event constraint",
+    "line": "Event is active",
+    "type": "odrl:LogicalConstraint",
+    "leftOperand": {
+      "id": "event"
+    },
+    "operator": {
+      "id": "odrl:eq"
+    },
+    "rightOperand": "active"
+  }
+]

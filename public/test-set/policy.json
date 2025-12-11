@@ -1,0 +1,173 @@
+[
+  {
+    "name": "membership policy",
+    "id": "membership policy",
+    "type": "odrl:Set",
+    "permission": [
+      {
+        "name": "membershipPermission",
+        "action": {
+          "id": ""
+        },
+        "constraint": [
+          {
+            "name": "membershipConstraint",
+            "line": "Membership Credential is active",
+            "type": "odrl:LogicalConstraint",
+            "leftOperand": {
+              "id": "MembershipCredential"
+            },
+            "operator": {
+              "id": "odrl:eq"
+            },
+            "rightOperand": "active"
+          }
+        ]
+      }
+    ],
+    "prohibition": [
+      {
+        "name": "membershipPermission",
+        "action": {
+          "id": ""
+        },
+        "constraint": [
+          {
+            "name": "membershipConstraint",
+            "line": "Membership Credential is active",
+            "type": "odrl:LogicalConstraint",
+            "leftOperand": {
+              "id": "MembershipCredential"
+            },
+            "operator": {
+              "id": "odrl:eq"
+            },
+            "rightOperand": "active"
+          }
+        ]
+      }
+    ],
+    "obligation": [
+      {
+        "name": "membershipPermission",
+        "action": {
+          "id": ""
+        },
+        "constraint": [
+          {
+            "name": "membershipConstraint",
+            "line": "Membership Credential is active",
+            "type": "odrl:LogicalConstraint",
+            "leftOperand": {
+              "id": "MembershipCredential"
+            },
+            "operator": {
+              "id": "odrl:eq"
+            },
+            "rightOperand": "active"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Event Policy",
+    "id": "Event Policy",
+    "type": "odrl:Set",
+    "permission": [
+      {
+        "name": "Event Permission",
+        "action": {
+          "id": ""
+        },
+        "constraint": [
+          {
+            "name": "event constraint",
+            "line": "Event is active",
+            "type": "odrl:LogicalConstraint",
+            "leftOperand": {
+              "id": "event"
+            },
+            "operator": {
+              "id": "odrl:eq"
+            },
+            "rightOperand": "active"
+          }
+        ]
+      }
+    ],
+    "prohibition": [],
+    "obligation": [
+      {
+        "name": "Event Permission",
+        "action": {
+          "id": ""
+        },
+        "constraint": [
+          {
+            "name": "event constraint",
+            "line": "Event is active",
+            "type": "odrl:LogicalConstraint",
+            "leftOperand": {
+              "id": "event"
+            },
+            "operator": {
+              "id": "odrl:eq"
+            },
+            "rightOperand": "active"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "multiple policy",
+    "id": "multiple policy",
+    "type": "odrl:Set",
+    "permission": [
+      {
+        "name": "membershipPermission",
+        "action": {
+          "id": ""
+        },
+        "constraint": [
+          {
+            "name": "membershipConstraint",
+            "line": "Membership Credential is active",
+            "type": "odrl:LogicalConstraint",
+            "leftOperand": {
+              "id": "MembershipCredential"
+            },
+            "operator": {
+              "id": "odrl:eq"
+            },
+            "rightOperand": "active"
+          }
+        ]
+      }
+    ],
+    "prohibition": [
+      {
+        "name": "Event Permission",
+        "action": {
+          "id": ""
+        },
+        "constraint": [
+          {
+            "name": "event constraint",
+            "line": "Event is active",
+            "type": "odrl:LogicalConstraint",
+            "leftOperand": {
+              "id": "event"
+            },
+            "operator": {
+              "id": "odrl:eq"
+            },
+            "rightOperand": "active"
+          }
+        ]
+      }
+    ],
+    "obligation": []
+  }
+]
